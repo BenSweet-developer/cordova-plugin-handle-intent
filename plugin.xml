@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-handle-intent" version="1.0.0">
+
+   <name>HandleIntentPlugin</name>
+    
+   <info>
+		Cordova Handle Intent plugin v1.0.0 installed
+		For more details visit https://github.com/BenSweet-developer/cordova-plugin-handle-intent
+	</info>
+
+   <js-module name="HandleIntentPlugin" src="www/HandleIntentPlugin.js">
+      <clobbers target="cordova.plugins.HandleIntentPlugin" />
+   </js-module>
+
+	<engines>
+		<engine name="cordova-android" version=">=7.0.0" />
+	</engines>
+
+   <platform name="android">
+
+      <config-file parent="/*" target="res/xml/config.xml">
+         <feature name="HandleIntentPlugin">
+            <param name="android-package" value="com.cordova.plugin.handleintentplugin.HandleIntentPlugin" />
+         </feature>
+      </config-file>
+
+      <config-file parent="/*" target="AndroidManifest.xml" />
+
+      <source-file src="src/android/HandleIntentPlugin.java" target-dir="src/com/cordova/plugin/handleintentplugin/HandleIntentPlugin" />
+
+   </platform>
+
+</plugin>

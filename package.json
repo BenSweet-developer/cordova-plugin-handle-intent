@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-handle-intent",
+  "version": "1.0.0",
+  "description": "Cordova plugin for Handle Intent Started by startActivity and set results for startActivityForResults (Android Only)",
+  "typings": "typings/index.d.ts",
+  "cordova": {
+    "id": "cordova-plugin-handle-intent",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenSweet-developer/cordova-plugin-handle-intent"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": {
+    "name": "Benny Sweetson",
+    "email": "sweetson95@gmail.com"
+  },
+  "license": "ISC"
+}
